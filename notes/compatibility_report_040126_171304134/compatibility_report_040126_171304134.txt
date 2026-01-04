@@ -1,0 +1,38 @@
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\NOTESPAWNER\Create_0.gml
+Converted description /// @description  Start alarm
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\NOTESPAWNER\Alarm_0.gml
+Converted description /// @description  Spawn Notes
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\parNote\Create_0.gml
+Converted description /// @description  Default Variables
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\parNote\Step_0.gml
+Converted description /// @description  Handle Inputs
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\parNote\Other_0.gml
+Converted description /// @description  Die
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\objGreenNote\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\objRedNote\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\objYellowNote\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\objBlueNote\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\objOrangeNote\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: C:\Users\joeyt\OneDrive\Documents\GameMaker\Projects\RPGythm.gmx\mvc\objects\CONTROL\Create_0.gml
+Converted description /// @description  Set gamespeed based on refresh rate
+
+Missing audiogroup for sound: 'soundNoteHit' - setting to default audio group
+Game speed set to 120
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'
