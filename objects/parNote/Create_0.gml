@@ -1,4 +1,3 @@
 /// @description  Default Variables
 key = ord(vk_space);
-sped = 3; 
-
+note_speed = 3;

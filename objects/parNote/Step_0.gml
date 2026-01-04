@@ -8,5 +8,5 @@ if (keyboard_check_pressed(key)) {
 }
 
 // Move
-y += sped;
+y += note_speed;
 
