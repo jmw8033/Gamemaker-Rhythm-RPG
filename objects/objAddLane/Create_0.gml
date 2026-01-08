@@ -1,0 +1,9 @@
+/// @description Variables
+lanes = [];
+hueButtons = [];
+speedButtons = [];
+keyButtons = [];
+array_push(lanes, instance_find(objEditorLane, 1));
+array_push(hueButtons, instance_find(objLaneHue, 1));
+array_push(speedButtons, instance_find(objLaneSpeed, 1));
+array_push(keyButtons, instance_find(objLaneKey, 1));
