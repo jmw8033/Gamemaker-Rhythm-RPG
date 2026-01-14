@@ -9,4 +9,5 @@ if (instance_number(objEditorLane) > 1) {
 	instance_destroy(laneHue);
 	instance_destroy(laneSpeed);
 	instance_destroy(laneKey);
+	objAddLane.numLanes -= 1;
 }

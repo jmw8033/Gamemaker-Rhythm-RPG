@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprAddLane",
-    "path":"sprites/sprAddLane/sprAddLane.yy",
+    "name":"sprDeleteLane",
+    "path":"sprites/sprDeleteLane/sprDeleteLane.yy",
   },
   "spriteMaskId":null,
   "visible":true,
