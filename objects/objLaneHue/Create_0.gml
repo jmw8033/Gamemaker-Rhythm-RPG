@@ -1,2 +1,2 @@
 /// @description Variables
-laneID = 0;
+hue = "";
