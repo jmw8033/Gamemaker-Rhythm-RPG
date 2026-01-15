@@ -1,2 +1,3 @@
 /// @description Variables
-laneID = 0;
+input = "";
+key = "";
