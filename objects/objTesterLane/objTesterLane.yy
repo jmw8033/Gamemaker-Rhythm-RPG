@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"objSolidNoteSelector",
+  "%Name":"objTesterLane",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objSolidNoteSelector",
+  "name":"objTesterLane",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Chart Editor/Buttons.yy",
+    "name":"Chart Tester",
+    "path":"folders/Objects/Chart Tester.yy",
   },
-  "parentObjectId":{
-    "name":"parNoteSelect",
-    "path":"objects/parNoteSelect/parNoteSelect.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSolidNoteSelector",
-    "path":"sprites/sprSolidNoteSelector/sprSolidNoteSelector.yy",
+    "name":"sprEditorLane",
+    "path":"sprites/sprEditorLane/sprEditorLane.yy",
   },
   "spriteMaskId":null,
   "visible":true,

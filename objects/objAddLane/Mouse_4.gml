@@ -20,6 +20,9 @@ newLane.hueID = newLaneHue;
 newLane.keyID = newLaneKey;
 newLane.speedID = newLaneSpeed;
 newLane.laneIndex = numLanes - 1;
+newLaneHue.laneIndex = numLanes - 1;
+newLaneKey.laneIndex = numLanes - 1;
+newLaneSpeed.laneIndex = numLanes - 1;
 
 // Add new objects to arrays
 array_push(lanes, instance_find(newLane, 0));

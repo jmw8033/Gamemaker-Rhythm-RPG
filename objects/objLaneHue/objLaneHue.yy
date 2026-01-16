@@ -10,8 +10,8 @@
   "name":"objLaneHue",
   "overriddenProperties":[],
   "parent":{
-    "name":"Chart Editor",
-    "path":"folders/Objects/Chart Editor.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Chart Editor/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,3 +1,2 @@
 /// @description Variables
-hue = "";
-laneIndex = 0;
+chartName = "";

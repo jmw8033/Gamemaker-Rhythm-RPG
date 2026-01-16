@@ -5,7 +5,7 @@ function updateEditorDisplay(){
 	}
 	
 	var chart = objChartEditor.chart;
-	for (var i = 0; i < array_length(chart.notes); i += 1) {
+	for (var i = 0; i < array_length(chart.notes); i++) {
 		var note = chart.notes[i];	
 		var lane = chart.lanes[note.lane];
 		if (note.timing >= objTimeline.currentTime and note.timing <= objTimeline.maxTime) {

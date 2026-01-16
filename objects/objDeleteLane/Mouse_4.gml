@@ -13,7 +13,7 @@ if (instance_number(objEditorLane) > 1) {
 	// Update chart save struct
 	var newNotes = [];
 	var chart = objChartEditor.chart;
-	for (var i = 0; i < array_length(chart.notes); i += 1) {
+	for (var i = 0; i < array_length(chart.notes); i++) {
 		if (chart.notes[i].lane != objAddLane.numLanes - 1) {
 			array_push(newNotes, chart.notes[i]);
 		}
