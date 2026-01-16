@@ -4,7 +4,7 @@ chartName = "";
 songName = "";
 selectedNote = 0;
 bpm = 120;
-pixelsPerSecond = sprite_get_height(sprBlueNote) * 2;
+pixelsPerSecond = sprite_get_height(sprSolidNote) * 2;
 
 // Chart save file struct
 chart = {chartName: chartName, songName: songName, bpm: bpm, lanes: [], notes: []};
