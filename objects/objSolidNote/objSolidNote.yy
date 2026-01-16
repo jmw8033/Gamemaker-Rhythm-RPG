@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"objSolidNoteSelector",
+  "%Name":"objSolidNote",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objSolidNoteSelector",
+  "name":"objSolidNote",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Chart Editor/Buttons.yy",
+    "name":"Notes",
+    "path":"folders/Objects/Notes.yy",
   },
   "parentObjectId":{
-    "name":"parNoteSelect",
-    "path":"objects/parNoteSelect/parNoteSelect.yy",
+    "name":"parEditorNote",
+    "path":"objects/parEditorNote/parEditorNote.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSolidNoteSelector",
-    "path":"sprites/sprSolidNoteSelector/sprSolidNoteSelector.yy",
+    "name":"sprSolidNote",
+    "path":"sprites/sprSolidNote/sprSolidNote.yy",
   },
   "spriteMaskId":null,
   "visible":true,
