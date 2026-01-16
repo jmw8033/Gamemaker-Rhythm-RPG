@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"objTesterLane",
+  "%Name":"objEditorLoad",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objTesterLane",
+  "name":"objEditorLoad",
   "overriddenProperties":[],
   "parent":{
-    "name":"Chart Tester",
-    "path":"folders/Objects/Chart Tester.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Chart Editor/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprLane",
-    "path":"sprites/sprLane/sprLane.yy",
+    "name":"sprTextBox",
+    "path":"sprites/sprTextBox/sprTextBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

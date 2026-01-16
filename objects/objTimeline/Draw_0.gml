@@ -1,5 +1,5 @@
 /// @description Draw timescale
-var offset = sprite_get_height(sprBlueNote) * 2;
+var offset = sprite_get_height(sprSolidNote) * 2;
 draw_text(x, y, currentTime);
 draw_text(x, y - offset, currentTime + 1);
 draw_text(x, y - 2 * offset, currentTime + 2);

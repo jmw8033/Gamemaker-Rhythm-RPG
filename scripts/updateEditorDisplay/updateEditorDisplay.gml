@@ -10,7 +10,7 @@ function updateEditorDisplay(){
 		var lane = chart.lanes[note.lane];
 		if (note.timing >= objTimeline.currentTime and note.timing <= objTimeline.maxTime) {
 			var _y = objTimeline.y - (note.timing - objTimeline.currentTime) * objChartEditor.pixelsPerSecond;
-			with (instance_create_depth(lane._x, _y, -100, note.noteType)) {
+			with (instance_create_depth(lane._x + sprite_get_width(sprSolidNote) / 2, _y, -100, note.noteType)) {
 				key = lane.key;
 				noteSpeed = lane.noteSpeed;
 				image_blend = lane.hue;

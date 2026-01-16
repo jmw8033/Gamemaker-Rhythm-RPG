@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprEditorLane",
-    "path":"sprites/sprEditorLane/sprEditorLane.yy",
+    "name":"sprLane",
+    "path":"sprites/sprLane/sprLane.yy",
   },
   "spriteMaskId":null,
   "visible":true,
