@@ -13,8 +13,8 @@
     "path":"folders/Objects/Notes.yy",
   },
   "parentObjectId":{
-    "name":"parEditorNote",
-    "path":"objects/parEditorNote/parEditorNote.yy",
+    "name":"parNote",
+    "path":"objects/parNote/parNote.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

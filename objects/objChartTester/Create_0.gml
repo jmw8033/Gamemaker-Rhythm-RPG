@@ -1,4 +1,4 @@
-/// @description Variables
+/// @descr Variables
 chart = {};
 playing = false;
 songAsset = "";

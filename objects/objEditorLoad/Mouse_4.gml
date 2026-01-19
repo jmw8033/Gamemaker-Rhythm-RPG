@@ -58,4 +58,6 @@ for (var i = 1; i < array_length(chart.lanes); i++) {
 	currentKey = newLaneKey;
 	currentSpeed = newLaneSpeed;
 }
+objChartName.chartName = chart.chartName;
+objSongName.songName = chart.songName;
 updateEditorDisplay()

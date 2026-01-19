@@ -1,4 +1,4 @@
-/// @descripion Handle note spawning
+/// @descr Handle note spawning
 if (not playing) {
 	exit;
 }
