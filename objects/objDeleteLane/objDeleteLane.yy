@@ -8,8 +8,8 @@
   "name":"objDeleteLane",
   "overriddenProperties":[],
   "parent":{
-    "name":"Chart Editor",
-    "path":"folders/Objects/Chart Editor.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Chart Editor/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprAddLane",
-    "path":"sprites/sprAddLane/sprAddLane.yy",
+    "name":"sprDeleteLane",
+    "path":"sprites/sprDeleteLane/sprDeleteLane.yy",
   },
   "spriteMaskId":null,
   "visible":true,
