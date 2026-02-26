@@ -1,2 +1,2 @@
 /// @description Variables
-chartName = "test";
+noteDivision = "2";

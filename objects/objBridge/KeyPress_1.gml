@@ -1,14 +1,30 @@
 /// @description Hit note
-var _y = 0;
+if (not keyboard_check_pressed(key)) {
+	objHealthbar.hp -= 5;
+	exit;	
+}
+
 var noteHit = noone;
 
 with (parNote) {
-	if (position_meeting(x, y, objBridge) and y > _y and key == other.key) {
-		_y = y;
+	if (position_meeting(x, y, objBridge) and key == other.key) {
+		show_debug_message(chord);
 		noteHit = id;
+		// If chord, check all other notes
+		if (array_length(chord) > 0) {
+			var chord_hit = true
+			for (var i = 0; i < array_length(chord); i++) {
+				if (not keyboard_check_pressed(chord[i])) {
+					chord_hit = false;
+				}
+			}
+			if (not chord_hit) {
+				noteHit = noone;
+			}
+		}
+		break;
 	}
 }
-show_debug_message(noteHit);
 if (noteHit == noone) {
 	objHealthbar.hp -= 5;
 	exit;

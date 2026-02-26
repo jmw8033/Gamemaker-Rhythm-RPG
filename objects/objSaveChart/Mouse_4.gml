@@ -14,6 +14,7 @@ if (array_length(chart.notes) == 0) {
 	show_message("Chart has no notes");
 	exit;
 }
+updateChords();
 
 // Save chart
 var directory = "charts/";
@@ -33,8 +34,3 @@ if (file_exists(filename)) {
 file_rename(tmp, filename);
 
 show_message("Saved chart " + game_save_id + filename);
-
-show_debug_message("working_directory = " + working_directory);
-show_debug_message("Saving to: " + filename);
-show_debug_message("Exists after save? " + string(file_exists(filename)));
-show_debug_message("Tmp exists? " + string(file_exists(filename + ".tmp")));

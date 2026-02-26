@@ -13,6 +13,7 @@ function updateEditorDisplay(){
 			with (instance_create_depth(lane._x + sprite_get_width(sprSolidNote) / 2, _y, -100, note.noteType)) {
 				key = lane.key;
 				noteSpeed = lane.noteSpeed;
+				chord = note.chord;
 				image_blend = lane.hue;
 			}
 		}

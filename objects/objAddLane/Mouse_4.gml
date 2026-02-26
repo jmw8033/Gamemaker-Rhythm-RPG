@@ -31,34 +31,35 @@ array_push(keyButtons, instance_find(newLaneKey, 0));
 array_push(speedButtons, instance_find(newLaneSpeed, 0));
 
 // Set default lane values and save to chart save struct
+var noteSpeed = sprite_get_height(sprSolidNote) * 4 / room_speed;
 if (numLanes == 2) {
 	newLaneHue.hue = "4235519";
 	newLaneKey.key = ord("S");
 	newLaneKey.input = "S";
-	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "4235519", key: ord("S"), noteSpeed: 5});
+	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "4235519", key: ord("S"), noteSpeed: noteSpeed});
 } else if (numLanes == 3) {
 	newLaneHue.hue = "65535";
 	newLaneKey.key = ord("D");
 	newLaneKey.input = "D";
-	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "65535", key: ord("D"), noteSpeed: 5});
+	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "65535", key: ord("D"), noteSpeed: noteSpeed});
 } else if (numLanes == 4) {
 	newLaneHue.hue = "65280";
 	newLaneKey.key = ord("F");
 	newLaneKey.input = "F";
-	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "65280", key: ord("F"), noteSpeed: 5});
+	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "65280", key: ord("F"), noteSpeed: noteSpeed});
 } else if (numLanes == 5) {
 	newLaneHue.hue = "16776960";
 	newLaneKey.key = ord("G");
 	newLaneKey.input = "G";
-	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "16776960", key: ord("G"), noteSpeed: 5});
+	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "16776960", key: ord("G"), noteSpeed: noteSpeed});
 } else if (numLanes == 6) {
 	newLaneHue.hue = "16711680";
 	newLaneKey.key = ord("H");
 	newLaneKey.input = "H";
-	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "16711680", key: ord("H"), noteSpeed: 5});
+	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "16711680", key: ord("H"), noteSpeed: noteSpeed});
 } else if (numLanes == 7) {
 	newLaneHue.hue = "8388736";
 	newLaneKey.key = ord("J");
 	newLaneKey.input = "J";
-	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "8388736", key: ord("J"), noteSpeed: 5});
+	array_push(objChartEditor.chart.lanes, {_x: newLane.x, hue: "8388736", key: ord("J"), noteSpeed: noteSpeed});
 }
