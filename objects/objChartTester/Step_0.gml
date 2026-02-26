@@ -18,6 +18,7 @@ if (nextNoteIndex < array_length(chart.notes)) {
 		key = lane.key;
 		noteSpeed = lane.noteSpeed;
 		image_blend = lane.hue;
+		chord = note.chord;
 	}	
 	nextNoteIndex++;
 }

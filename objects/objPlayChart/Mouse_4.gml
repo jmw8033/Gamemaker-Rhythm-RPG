@@ -1,4 +1,7 @@
 /// @descr Start chart
+if (objChartTester.playing) {
+	exit;
+}
 var chart = objChartTester.chart;
 if (not struct_exists(chart, "songName")) {
 	exit;

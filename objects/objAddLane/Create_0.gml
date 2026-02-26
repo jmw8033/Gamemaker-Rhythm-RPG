@@ -19,4 +19,4 @@ starterKey.input = "A"
 starterKey.key = ord("A");
 
 // Add to chart save struct
-array_push(objChartEditor.chart.lanes, {_x: objEditorLane.x, hue: "255", key: ord("A"), noteSpeed: 5});
+array_push(objChartEditor.chart.lanes, {_x: objEditorLane.x, hue: "255", key: ord("A"), noteSpeed: sprite_get_height(sprSolidNote) * 4 / room_speed});
