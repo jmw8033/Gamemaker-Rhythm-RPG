@@ -1,4 +1,5 @@
 function updateChords(){
+	// Loop through notes and update
 	var chart = objChartEditor.chart;
 	var chord = [];
 	var chord_keys = [];
