@@ -8,7 +8,6 @@ with (parNote) {
 		noteHit = id;
 	}
 }
-show_debug_message(noteHit);
 if (noteHit == noone) {
 	objHealthbar.hp -= 5;
 	exit;
