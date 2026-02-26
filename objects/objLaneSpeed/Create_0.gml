@@ -1,2 +1,3 @@
 /// @description Variables
-laneID = 0;
+noteSpeed = 5;
+laneIndex = 0;

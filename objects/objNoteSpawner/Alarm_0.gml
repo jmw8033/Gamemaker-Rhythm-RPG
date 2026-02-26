@@ -5,7 +5,7 @@ if (note == 0) { // Green
 } else if (note == 1) { // Red
     instance_create_depth(objRedBridge.x, objTrack.y, -1, objRedNote);
 } else if (note == 2) { // Yellow
-    instance_create_depth(objYellowBridge.x, objTrack.y, -1, objYellowNote);
+    instance_create_depth(objBridge.x, objTrack.y, -1, objYellowNote);
 } else if (note == 3) { // Blue
     instance_create_depth(objBlueBridge.x, objTrack.y, -1, objBlueNote);
 } else if (note == 4) { // Orange

@@ -9,4 +9,17 @@ if (instance_number(objEditorLane) > 1) {
 	instance_destroy(laneHue);
 	instance_destroy(laneSpeed);
 	instance_destroy(laneKey);
+	
+	// Update chart save struct
+	var newNotes = [];
+	var chart = objChartEditor.chart;
+	for (var i = 0; i < array_length(chart.notes); i++) {
+		if (chart.notes[i].lane != objAddLane.numLanes - 1) {
+			array_push(newNotes, chart.notes[i]);
+		}
+	}
+	chart.notes = newNotes;
+	updateEditorDisplay();
+	array_pop(objChartEditor.chart.lanes);
+	objAddLane.numLanes -= 1;
 }
