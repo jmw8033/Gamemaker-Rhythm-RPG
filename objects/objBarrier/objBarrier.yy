@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objPlayer",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objBarrier",
+  "eventList":[],
   "managed":true,
-  "name":"objPlayer",
+  "name":"objBarrier",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Overworld/Player.yy",
+    "name":"Overworld",
+    "path":"folders/Objects/Overworld.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlayer",
-    "path":"sprites/sprPlayer/sprPlayer.yy",
+    "name":"sprBarrier",
+    "path":"sprites/sprBarrier/sprBarrier.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
