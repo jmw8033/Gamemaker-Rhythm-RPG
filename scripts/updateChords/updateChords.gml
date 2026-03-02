@@ -4,7 +4,7 @@ function updateChords(){
 	var chord = [];
 	var chord_keys = [];
 	
-	for (var i = 0; i < array_length(chart.notes) - 1; i ++) {
+	for (var i = 0; i < array_length(chart.notes) - 1; i++) {
 		if (chart.notes[i].timing == chart.notes[i+1].timing) {
 			// Save note indexes and keys
 			array_push(chord, i);

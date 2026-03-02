@@ -7,4 +7,4 @@ songTime = 0;
 lanes = [];
 
 editorNoteMap = {};
-editorNoteMap[$ objEditorSolidNote] = objSolidNote;
+editorNoteMap[$ object_get_name(objEditorSolidNote)] = objSolidNote;

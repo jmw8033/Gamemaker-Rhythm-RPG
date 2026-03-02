@@ -1,3 +1,5 @@
 /// @description Draw bridge key
 draw_self();
-draw_text(x, y + 10, chr(key));
+if (not fadeOut) {
+	draw_text(x - 4, y + 9, chr(key));
+}

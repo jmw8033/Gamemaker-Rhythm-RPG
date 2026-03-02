@@ -1,10 +1,6 @@
 /// @descr Handle note spawning
-if (not playing) {
-	exit;
-}
-if (not audio_is_playing(audio)) {
-	playing = false;	
-}
+if (not playing) exit;
+if (not audio_is_playing(audio)) playing = false;	
 
 if (nextNoteIndex < array_length(chart.notes)) {
 	var songTime = audio_sound_get_track_position(audio);

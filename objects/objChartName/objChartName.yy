@@ -10,8 +10,8 @@
   "name":"objChartName",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Chart Editor/Buttons.yy",
+    "name":"Chart Buttons",
+    "path":"folders/Objects/Chart Editor/Chart Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
