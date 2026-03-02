@@ -1,3 +1,3 @@
 /// @description Variables
-noteSpeed = sprite_get_height(sprSolidNote) * 4 / room_speed;
+noteSpeed = objChartEditor.pixelsPerSecond;
 laneIndex = 0;

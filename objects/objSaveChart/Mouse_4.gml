@@ -15,8 +15,10 @@ if (array_length(chart.notes) == 0) {
 	exit;
 }
 updateChords();
+updateLaneSpeeds();
 
 // Save chart
+/*
 var directory = "charts/";
 if (!directory_exists(game_save_id + directory)) {
 	directory_create(game_save_id + directory);
@@ -33,4 +35,9 @@ if (file_exists(filename)) {
 }
 file_rename(tmp, filename);
 
-show_message("Saved chart " + game_save_id + filename);
+show_message("Saved chart " + game_save_id + filename);*/
+
+var chartJson = json_stringify(chart);
+var file = file_text_open_write(chart.chartName + ".json");
+file_text_write_string(file, chartJson);
+file_text_close(file);

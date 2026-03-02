@@ -1,5 +1,5 @@
 /// @description Load chart from json
-var chartName = get_string("Enter chart name", "");
+var chartName = get_string("Enter chart name", "");/*
 var filename = "charts/" + chartName + ".json";
 
 if (!file_exists(filename)) {
@@ -9,7 +9,11 @@ if (!file_exists(filename)) {
 var f = file_text_open_read(filename);
 var json = file_text_read_string(f);
 file_text_close(f);
-objChartTester.chart = json_parse(json);
+objChartTester.chart = json_parse(json);*/
+var file = file_text_open_read(chartName + ".json");
+var chartJson = file_text_read_string(file);
+file_text_close(file);
+objChartTester.chart = json_parse(chartJson);
 
 // Create lanes
 var firstLane = instance_find(objTesterLane, 0);

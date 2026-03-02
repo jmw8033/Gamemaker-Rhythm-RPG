@@ -10,8 +10,8 @@
   "name":"objRoomToggler",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Chart Editor/Buttons.yy",
+    "name":"Other Buttons",
+    "path":"folders/Objects/Chart Editor/Other Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

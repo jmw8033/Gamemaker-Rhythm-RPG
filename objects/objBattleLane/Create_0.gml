@@ -1,0 +1,9 @@
+/// @description Variables
+hue = 0;
+key = 0;
+noteSpeed = 0;
+image_alpha = 0;
+fadeSpeed = 0.02;
+fadeDelay = 0;
+fadeIn = true;
+fadeOut = false;

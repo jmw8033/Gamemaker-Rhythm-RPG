@@ -3,9 +3,14 @@ noteType = "";
 chartName = "test";
 songName = "soundPerfidia";
 selectedNote = 0;
+difficulty = "Easy";
+difficultySpeedMap = {"Easy": 4 * sprite_get_height(sprSolidNote),
+					"Medium": 9 * sprite_get_height(sprSolidNote), 
+					  "Hard": 15 * sprite_get_height(sprSolidNote), 
+					"Expert": 20 * sprite_get_height(sprSolidNote)}
+pixelsPerSecond = difficultySpeedMap[$ difficulty];
 var bpm = 120;
 var noteDivision = 2;
-pixelsPerSecond = sprite_get_height(sprSolidNote) * 4;
 
 // Chart save file struct
 chart = {chartName: chartName, songName: songName, bpm: bpm, lanes: [], notes: [], noteDivision: noteDivision};

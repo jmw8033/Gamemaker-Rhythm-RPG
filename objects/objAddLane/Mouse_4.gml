@@ -2,9 +2,7 @@
 // Needs to check number of lane in room for default values
 // Add a new lane to the right of the last one
 // Also need Set lane color, key, and speed
-if (numLanes >= maxLanes) {
-	exit;
-}
+if (numLanes >= maxLanes) exit;
 numLanes += 1;
 
 // Create new lane and input buttons
@@ -31,7 +29,7 @@ array_push(keyButtons, instance_find(newLaneKey, 0));
 array_push(speedButtons, instance_find(newLaneSpeed, 0));
 
 // Set default lane values and save to chart save struct
-var noteSpeed = sprite_get_height(sprSolidNote) * 4 / room_speed;
+var noteSpeed = objChartEditor.pixelsPerSecond / room_speed;
 if (numLanes == 2) {
 	newLaneHue.hue = "4235519";
 	newLaneKey.key = ord("S");
