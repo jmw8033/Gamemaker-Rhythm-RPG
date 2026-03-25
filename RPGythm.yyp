@@ -86,6 +86,7 @@
     {"id":{"name":"objLoadChart","path":"objects/objLoadChart/objLoadChart.yy",},},
     {"id":{"name":"objNoteDivision","path":"objects/objNoteDivision/objNoteDivision.yy",},},
     {"id":{"name":"objNoteSpawner","path":"objects/objNoteSpawner/objNoteSpawner.yy",},},
+    {"id":{"name":"objOvrwldBraniac","path":"objects/objOvrwldBraniac/objOvrwldBraniac.yy",},},
     {"id":{"name":"objPlayChart","path":"objects/objPlayChart/objPlayChart.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"objRoomToggler","path":"objects/objRoomToggler/objRoomToggler.yy",},},
@@ -138,10 +139,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"roomOverworld","path":"rooms/roomOverworld/roomOverworld.yy",},},
     {"roomId":{"name":"roomBrainBattle","path":"rooms/roomBrainBattle/roomBrainBattle.yy",},},
     {"roomId":{"name":"roomChartEditor","path":"rooms/roomChartEditor/roomChartEditor.yy",},},
     {"roomId":{"name":"roomChartTester","path":"rooms/roomChartTester/roomChartTester.yy",},},
-    {"roomId":{"name":"roomOverworld","path":"rooms/roomOverworld/roomOverworld.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
