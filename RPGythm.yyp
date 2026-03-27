@@ -140,8 +140,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"roomOverworld","path":"rooms/roomOverworld/roomOverworld.yy",},},
-    {"roomId":{"name":"roomBrainBattle","path":"rooms/roomBrainBattle/roomBrainBattle.yy",},},
     {"roomId":{"name":"roomChartEditor","path":"rooms/roomChartEditor/roomChartEditor.yy",},},
+    {"roomId":{"name":"roomBrainBattle","path":"rooms/roomBrainBattle/roomBrainBattle.yy",},},
     {"roomId":{"name":"roomChartTester","path":"rooms/roomChartTester/roomChartTester.yy",},},
   ],
   "templateType":null,

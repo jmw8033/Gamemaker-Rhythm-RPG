@@ -14,3 +14,4 @@ image_blend = c_green;
 // Reset timeline
 objTimeline.currentTime = 0
 objTimeline.maxTime = objTimeline.maxTimeMap[$ difficulty];
+updateEditorDisplay();

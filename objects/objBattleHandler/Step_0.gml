@@ -51,13 +51,12 @@ while (nextNoteIndex < array_length(chart.notes)) {
 	var note = chart.notes[nextNoteIndex];
 	for (var i = 0; i < array_length(lanes); i++) {
 		lanes[i].x += random_range(-5, 5);
-	}
+	}	
 	if (note.timing > songTime) {
 		break;
 	}
 	// Create note
 	var lane = lanes[note.lane];
-	show_debug_message(lane);
 	with (instance_create_depth(lane.x + sprite_get_width(sprLane) / 2, lane.y, -100, noteMap[$ note.noteType])) {
 		key = lane.key;
 		noteSpeed = lane.noteSpeed;

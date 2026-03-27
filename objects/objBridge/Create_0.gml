@@ -5,4 +5,4 @@ fadeSpeed = 0.02;
 fadeDelay = 0;
 fadeIn = true;
 fadeOut = false;
-laneObject = 0;
+laneObject = noone;
