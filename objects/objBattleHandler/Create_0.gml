@@ -18,6 +18,5 @@ noteMap[$ object_get_name(objEditorSolidNote)] = objSolidNote;
 
 var buffer = buffer_load("Aloha.json");
 var jsonString = buffer_read(buffer, buffer_text);
-show_debug_message(jsonString);
 chart = json_parse(jsonString);
 buffer_delete(buffer);
