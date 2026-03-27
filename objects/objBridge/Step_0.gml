@@ -1,4 +1,5 @@
 /// @description Fade in
+x = laneObject.x + sprite_get_width(sprLane) / 2
 if (fadeIn) {
 	if (fadeDelay > 0) {
 		fadeDelay --;
