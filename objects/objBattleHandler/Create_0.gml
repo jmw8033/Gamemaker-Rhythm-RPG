@@ -12,11 +12,10 @@ songDelay = 0;
 songStarted = false;
 songTime = 0;
 enemyID = noone;
+noteStreak = 0;
 
 noteMap = {};
 noteMap[$ object_get_name(objEditorSolidNote)] = objSolidNote;
+instance_create_depth(x, y, -1, objBridgeHandler);
 
-var buffer = buffer_load("Aloha.json");
-var jsonString = buffer_read(buffer, buffer_text);
-chart = json_parse(jsonString);
-buffer_delete(buffer);
+chartName = "";

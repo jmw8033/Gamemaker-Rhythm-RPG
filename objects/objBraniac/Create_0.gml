@@ -1,4 +1,13 @@
 /// #description Start Dialogue
+previous_room = roomOverworld;
+var chartName = "Aloha.json"
+with (instance_create_depth(x, y, -1, objBattleHandler)) {
+	var buffer = buffer_load(chartName);
+	var jsonString = buffer_read(buffer, buffer_text);
+	chart = json_parse(jsonString);
+	buffer_delete(buffer);
+}
+
 image_speed = 0;
 with (instance_create_depth(x + 50, y, 1, objDialogue)) {
 	lines = ["Welcome Challenger!",
@@ -16,7 +25,7 @@ songFinish = function() {
 	with (instance_create_depth(x + 50, y, 1, objDialogue)) {
 		lines = ["Well played bozo! I thought that would surely put you to sleep! Next time I won't give you a warning!"]
 		active = true;
-		onFinish = function() { room_goto(roomChartEditor) };
+		onFinish = function() { room_goto(objBraniac.previous_room) };
 		target = objBraniac;
 	}
 }
