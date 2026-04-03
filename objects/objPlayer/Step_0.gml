@@ -1,3 +1,5 @@
+depth = -y
+
 var hMove
 hMove = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 var vMove

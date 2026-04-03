@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"objSolidNote",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objBench",
+  "eventList":[],
   "managed":true,
-  "name":"objSolidNote",
+  "name":"objBench",
   "overriddenProperties":[],
   "parent":{
-    "name":"Notes",
-    "path":"folders/Objects/Notes.yy",
+    "name":"Overworld",
+    "path":"folders/Objects/Overworld.yy",
   },
   "parentObjectId":{
-    "name":"parNote",
-    "path":"objects/parNote/parNote.yy",
+    "name":"parProp",
+    "path":"objects/parProp/parProp.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSolidNote",
-    "path":"sprites/sprSolidNote/sprSolidNote.yy",
+    "name":"sprBench",
+    "path":"sprites/sprBench/sprBench.yy",
   },
   "spriteMaskId":null,
   "visible":true,
