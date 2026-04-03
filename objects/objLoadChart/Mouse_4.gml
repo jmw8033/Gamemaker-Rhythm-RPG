@@ -37,5 +37,6 @@ for (var i = 0; i < array_length(lanes); i++) {
 	with (instance_create_depth(lanes[i].x + sprite_get_width(sprBridge) / 2, lanes[i].y + sprite_get_height(sprLane), -10, objBridge)) {
 		image_blend = chart.lanes[i].hue;
 		key = chart.lanes[i].key;
+		laneObject = lanes[i];
 	}
 }

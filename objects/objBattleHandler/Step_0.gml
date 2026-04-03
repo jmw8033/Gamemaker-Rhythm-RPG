@@ -29,7 +29,8 @@ if (started) {
 			key = other.chart.lanes[i].key;
 			visible = true;
 			fadeDelay = i * 20;
-		}
+			laneObject = other.lanes[i]
+		}	
 	}
 	songDelay = ((firstLane.y + sprite_get_height(sprLane)) / (firstLane.noteSpeed * room_speed)) - 0.55;	
 	playing = true;
@@ -48,6 +49,9 @@ if (not songStarted and songTime >= songDelay) {
 // Create notes
 while (nextNoteIndex < array_length(chart.notes)) {
 	var note = chart.notes[nextNoteIndex];
+	for (var i = 0; i < array_length(lanes); i++) {
+		lanes[i].x += random_range(-5, 5);
+	}	
 	if (note.timing > songTime) {
 		break;
 	}
@@ -58,6 +62,7 @@ while (nextNoteIndex < array_length(chart.notes)) {
 		noteSpeed = lane.noteSpeed;
 		image_blend = lane.hue;
 		chord = note.chord;
+		laneObject = lane;
 	}	
 	nextNoteIndex++;
 }

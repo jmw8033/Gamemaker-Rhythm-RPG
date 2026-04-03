@@ -1,3 +1,0 @@
-/// @description Move
-y += noteSpeed;
-

@@ -1,7 +1,8 @@
 /// @description Fade in
+x = laneObject.x + sprite_get_width(sprLane) / 2;
 if (fadeIn) {
 	if (fadeDelay > 0) {
-		fadeDelay --;
+		fadeDelay--;
 	} else {
 		image_alpha = min(image_alpha + fadeSpeed, 1);
 	}
@@ -12,7 +13,7 @@ if (fadeIn) {
 
 if (fadeOut) {
 	if (fadeDelay > 0) {
-		fadeDelay --;
+		fadeDelay--;
 	} else {
 		image_alpha = max(image_alpha - fadeSpeed, 0);
 	}

@@ -15,6 +15,7 @@ if (nextNoteIndex < array_length(chart.notes)) {
 		noteSpeed = lane.noteSpeed;
 		image_blend = lane.hue;
 		chord = note.chord;
+		laneObject = lane;
 	}	
 	nextNoteIndex++;
 }
