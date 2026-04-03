@@ -49,9 +49,16 @@ if (not songStarted and songTime >= songDelay) {
 // Create notes
 while (nextNoteIndex < array_length(chart.notes)) {
 	var note = chart.notes[nextNoteIndex];
-	for (var i = 0; i < array_length(lanes); i++) {
-		lanes[i].x += random_range(-5, 5);
-	}	
+	/*for (var i = 0; i < array_length(lanes); i++) {
+		var dx = random_range(-0.5, 0.5);
+		if (i > 0 and dx < 0) {
+			dx = max(dx, -distance_to_object(lanes[i-1]));
+		}
+		if (i < array_length(lanes)-1 and dx > 0) {
+			dx = min(dx, distance_to_object(lanes[i+1]));
+		}
+		lanes[i].x += dx;
+	}	*/
 	if (note.timing > songTime) {
 		break;
 	}

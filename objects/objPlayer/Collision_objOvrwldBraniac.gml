@@ -1,1 +1,2 @@
-room_goto(roomBrainBattle)
+room_goto(roomBrainBattle);
+instance_destroy(other);

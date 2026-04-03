@@ -6,3 +6,4 @@ fadeDelay = 0;
 fadeIn = true;
 fadeOut = false;
 laneObject = noone;
+array_push(objBridgeHandler.bridges, id);

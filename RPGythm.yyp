@@ -51,7 +51,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"RPGythm",
   "resources":[
@@ -65,6 +65,7 @@
     {"id":{"name":"objBattleLane","path":"objects/objBattleLane/objBattleLane.yy",},},
     {"id":{"name":"objBraniac","path":"objects/objBraniac/objBraniac.yy",},},
     {"id":{"name":"objBridge","path":"objects/objBridge/objBridge.yy",},},
+    {"id":{"name":"objBridgeHandler","path":"objects/objBridgeHandler/objBridgeHandler.yy",},},
     {"id":{"name":"objChartEditor","path":"objects/objChartEditor/objChartEditor.yy",},},
     {"id":{"name":"objChartName","path":"objects/objChartName/objChartName.yy",},},
     {"id":{"name":"objChartTester","path":"objects/objChartTester/objChartTester.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"objLaneKey","path":"objects/objLaneKey/objLaneKey.yy",},},
     {"id":{"name":"objLaneSpeed","path":"objects/objLaneSpeed/objLaneSpeed.yy",},},
     {"id":{"name":"objLoadChart","path":"objects/objLoadChart/objLoadChart.yy",},},
+    {"id":{"name":"objMiss","path":"objects/objMiss/objMiss.yy",},},
     {"id":{"name":"objNoteDivision","path":"objects/objNoteDivision/objNoteDivision.yy",},},
     {"id":{"name":"objNoteSpawner","path":"objects/objNoteSpawner/objNoteSpawner.yy",},},
     {"id":{"name":"objOvrwldBraniac","path":"objects/objOvrwldBraniac/objOvrwldBraniac.yy",},},
@@ -127,6 +129,7 @@
     {"id":{"name":"sprHouseBottom","path":"sprites/sprHouseBottom/sprHouseBottom.yy",},},
     {"id":{"name":"sprHouseTop","path":"sprites/sprHouseTop/sprHouseTop.yy",},},
     {"id":{"name":"sprLane","path":"sprites/sprLane/sprLane.yy",},},
+    {"id":{"name":"sprMiss","path":"sprites/sprMiss/sprMiss.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"sprSky","path":"sprites/sprSky/sprSky.yy",},},
     {"id":{"name":"sprSolidNote","path":"sprites/sprSolidNote/sprSolidNote.yy",},},
