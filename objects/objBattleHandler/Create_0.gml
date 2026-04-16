@@ -15,6 +15,7 @@ enemyID = noone;
 noteStreak = 0;
 noteScore = 0;
 multiplier = 1;
+multiplierColor = c_aqua;
 
 noteMap = {};
 noteMap[$ object_get_name(objEditorSolidNote)] = objSolidNote;

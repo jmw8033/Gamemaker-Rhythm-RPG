@@ -1,5 +1,5 @@
 /// #description Start Dialogue
-previous_room = roomOverworld;
+previous_room = rmOverworld;
 var chartName = "Aloha.json"
 with (instance_create_depth(x, y, -1, objBattleHandler)) {
 	var buffer = buffer_load(chartName);
