@@ -1,6 +1,6 @@
 /// @description Handle Note Hit/Miss
 // Exit if song hasnt started
-if (not objBattleHandler.playing) { exit; }
+if (not objBattleHandler.songStarted) { exit; }
 // Exit if non bridge key pressed
 var bridgePressed = false;
 for (var i = 0; i < array_length(bridges); i++) {
