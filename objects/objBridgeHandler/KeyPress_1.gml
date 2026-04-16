@@ -1,10 +1,17 @@
 /// @description Handle Note Hit/Miss
 // Exit if song hasnt started
-if (not objBattleHandler.playing) {
-	exit;
+if (not objBattleHandler.playing) { exit; }
+// Exit if non bridge key pressed
+var bridgePressed = false;
+for (var i = 0; i < array_length(bridges); i++) {
+	if (keyboard_check_pressed(bridges[i].key)) {
+		bridgePressed = true;
+	}
 }
-var noteHit = false;
+if (not bridgePressed) { exit; }
+
 // Find lowest note
+var noteHit = false;
 var targetNote = noone;
 var maxY = -infinity;
 var noteKey = "";
@@ -26,13 +33,19 @@ for (var i = 0; i < array_length(bridges); i++) {
 		if (position_meeting(targetNote.x, targetNote.y, bridges[i]) and bridgeKey == noteKey) {
 			objBattleHandler.noteStreak += 1;
 			noteHit = true;
+			objBattleHandler.noteScore += targetNote.noteScore * objBattleHandler.multiplier;
+			// Increase multiplier every 10 notes
+			if (objBattleHandler.noteStreak <= 30 and objBattleHandler.noteStreak mod 10 == 0) {
+				objBattleHandler.multiplier += 1;
+			}
 			instance_destroy(targetNote);
 			break;
 		}
-	}		
+	}
 }
 // If no note was hit, reset noteStreak and create miss graphic
 if (not noteHit) {
 	instance_create_depth(random(room_width), random(room_height), -1, objMiss);
 	objBattleHandler.noteStreak = 0;
+	objBattleHandler.multiplier = 1;
 }
