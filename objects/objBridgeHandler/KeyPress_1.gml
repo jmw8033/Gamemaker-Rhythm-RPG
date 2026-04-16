@@ -37,6 +37,7 @@ for (var i = 0; i < array_length(bridges); i++) {
 			// Increase multiplier every 10 notes
 			if (objBattleHandler.noteStreak <= 30 and objBattleHandler.noteStreak mod 10 == 0) {
 				objBattleHandler.multiplier += 1;
+				objBattleHandler.multiplierColor = multiplierColorDict[$ string(objBattleHandler.multiplier)];
 			}
 			instance_destroy(targetNote);
 			break;
@@ -48,4 +49,5 @@ if (not noteHit) {
 	instance_create_depth(random(room_width), random(room_height), -1, objMiss);
 	objBattleHandler.noteStreak = 0;
 	objBattleHandler.multiplier = 1;
+	objBattleHandler.multiplierColor = multiplierColorDict[$ "1"];
 }
