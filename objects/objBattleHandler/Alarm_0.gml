@@ -1,6 +1,7 @@
 /// @description Run finish script
 enemyID.image_speed = 0;
 enemyID.image_index = 0;
+instance_destroy(objBridgeHandler);
 script_execute(enemyID.songFinish);
 // Fade out lanes
 for (var i = 0; i < array_length(lanes); i++) {
