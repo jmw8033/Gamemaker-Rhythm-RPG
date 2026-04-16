@@ -13,6 +13,8 @@ songStarted = false;
 songTime = 0;
 enemyID = noone;
 noteStreak = 0;
+noteScore = 0;
+multiplier = 1;
 
 noteMap = {};
 noteMap[$ object_get_name(objEditorSolidNote)] = objSolidNote;
