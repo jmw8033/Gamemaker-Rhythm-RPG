@@ -166,8 +166,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rmBrainBattle","path":"rooms/rmBrainBattle/rmBrainBattle.yy",},},
     {"roomId":{"name":"rmOverworld","path":"rooms/rmOverworld/rmOverworld.yy",},},
+    {"roomId":{"name":"rmBrainBattle","path":"rooms/rmBrainBattle/rmBrainBattle.yy",},},
     {"roomId":{"name":"rmChartEditor","path":"rooms/rmChartEditor/rmChartEditor.yy",},},
     {"roomId":{"name":"rmChartTester","path":"rooms/rmChartTester/rmChartTester.yy",},},
     {"roomId":{"name":"rmConnorTesting","path":"rooms/rmConnorTesting/rmConnorTesting.yy",},},
