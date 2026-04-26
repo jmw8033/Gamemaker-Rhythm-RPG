@@ -1,16 +1,16 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tsTest",
+  "%Name":"TileSet6",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tsTest",
-  "out_columns":1,
-  "out_tilehborder":2,
-  "out_tilevborder":2,
+  "name":"TileSet6",
+  "out_columns":9,
+  "out_tilehborder":0,
+  "out_tilevborder":0,
   "parent":{
     "name":"Tile Sets",
     "path":"folders/Tile Sets.yy",
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sprMysteryMeat",
-    "path":"sprites/sprMysteryMeat/sprMysteryMeat.yy",
+    "name":"sprMysteryMeatSet",
+    "path":"sprites/sprMysteryMeatSet/sprMysteryMeatSet.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":1,
+  "tile_count":81,
 }
