@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sound5",
+  "%Name":"sndSeaShanty2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8808163,
+  "duration":14.09,
   "exportDir":"",
-  "name":"sound5",
+  "name":"sndSeaShanty2",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound5.mp3",
-  "volume":1.0,
+  "soundFile":"sndSeaShanty2.mp3",
+  "volume":0.29,
 }

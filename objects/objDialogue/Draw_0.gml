@@ -6,7 +6,10 @@ var ty = target.y - sprite_get_height(target.sprite_index) / 2 + 80;
 
 var fullText = lines[currentLine];
 var textH = string_height_ext(fullText, -1, bubbleWidth - bubblePadding * 2);
-var bubbleH = textH + bubblePadding * 2;
+draw_set_font(-1);
+var hintH = string_height("Press ENTER to continue");
+draw_set_font(font);
+var bubbleH = textH + hintH + bubblePadding * 3;
 
 // Bubble background
 draw_set_color(c_white);
@@ -26,7 +29,13 @@ draw_text_ext(tx + bubblePadding, ty + bubblePadding, displayText, -1, bubbleWid
 draw_set_font(-1);
 draw_set_color(c_white);  // reset to default draw color
 
-// Blinking continue arrow
+// "Press ENTER to continue" hint shown in small text at bottom-right once the line finishes
 if (charIndex >= string_length(lines[currentLine]) and (current_time mod 800) < 400) {
-    draw_text(tx + bubbleWidth - 20, ty + bubbleH - 20, "▶");
+    draw_set_font(-1);
+    draw_set_color(c_gray);
+    var hintText = "Press ENTER to continue";
+    var hintX = tx + bubbleWidth - bubblePadding - string_width(hintText);
+    var hintY = ty + bubblePadding + textH + bubblePadding;
+    draw_text(hintX, hintY, hintText);
+    draw_set_color(c_white);
 }

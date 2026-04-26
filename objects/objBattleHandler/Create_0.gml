@@ -9,6 +9,7 @@ lanes = [];
 bridges = [];
 nextNoteIndex = 0;
 songDelay = 0;
+songSpecificDelay = 0;
 songStarted = false;
 songTime = 0;
 enemyID = noone;

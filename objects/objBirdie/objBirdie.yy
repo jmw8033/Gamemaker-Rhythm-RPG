@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"objDeer",
+  "%Name":"objBirdie",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objDeer",
+  "name":"objBirdie",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprDeer",
-    "path":"sprites/sprDeer/sprDeer.yy",
+    "name":"sprBirdie",
+    "path":"sprites/sprBirdie/sprBirdie.yy",
   },
   "spriteMaskId":null,
   "visible":true,

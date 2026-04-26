@@ -6,6 +6,7 @@ with (instance_create_depth(x, y, -1, objBattleHandler)) {
 	var jsonString = buffer_read(buffer, buffer_text);
 	chart = json_parse(jsonString);
 	buffer_delete(buffer);
+	songSpecificDelay = -0.8;
 }
 
 image_speed = 0;
