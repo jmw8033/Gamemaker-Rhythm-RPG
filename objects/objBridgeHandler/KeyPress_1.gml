@@ -41,7 +41,7 @@ for (var i = 0; i < array_length(bridges); i++) {
 			}
 			// Increase health on note hit
 			if (instance_exists(objHealthbar) and not objHealthbar.dead) {
-				objHealthbar.hp = min(objHealthbar.hp + 5, 100);
+				objHealthbar.hp = min(objHealthbar.hp + 6, 100);
 			}
 			instance_destroy(targetNote);
 			break;

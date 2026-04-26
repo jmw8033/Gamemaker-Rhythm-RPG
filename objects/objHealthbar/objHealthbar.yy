@@ -10,8 +10,8 @@
   "name":"objHealthbar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Battle Room",
+    "path":"folders/Objects/Battle Room.yy",
   },
   "parentObjectId":null,
   "persistent":false,

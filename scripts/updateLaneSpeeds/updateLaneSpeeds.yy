@@ -6,7 +6,7 @@
   "name":"updateLaneSpeeds",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Sounds/Scripts.yy",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
