@@ -26,7 +26,13 @@ draw_text_ext(tx + bubblePadding, ty + bubblePadding, displayText, -1, bubbleWid
 draw_set_font(-1);
 draw_set_color(c_white);  // reset to default draw color
 
-// Blinking continue arrow
+// "Press ENTER to continue" hint shown in small text at bottom-right once the line finishes
 if (charIndex >= string_length(lines[currentLine]) and (current_time mod 800) < 400) {
-    draw_text(tx + bubbleWidth - 20, ty + bubbleH - 20, "▶");
+    draw_set_font(-1);
+    draw_set_color(c_gray);
+    var hintText = "Press ENTER to continue";
+    var hintX = tx + bubbleWidth - bubblePadding - string_width(hintText);
+    var hintY = ty + bubbleH - bubblePadding - string_height(hintText);
+    draw_text(hintX, hintY, hintText);
+    draw_set_color(c_white);
 }
