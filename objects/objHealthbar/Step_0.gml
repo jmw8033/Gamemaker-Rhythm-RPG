@@ -1,4 +1,9 @@
-/// @description Handle player death sequence
+/// @description Check hp and handle player death sequence
+if (not dead and hp <= 0) {
+	audio_play_sound(sndDie, 1, false);
+	dead = true;
+}
+
 if (dead and not deathHandled) {
 	deathHandled = true;
 	// Stop all music
