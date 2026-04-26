@@ -76,6 +76,6 @@ while (nextNoteIndex < array_length(chart.notes)) {
 
 // Run finish script
 if (nextNoteIndex >= array_length(chart.notes)) {
-	alarm[0] = songDelay * room_speed;
+	alarm[0] = (songDelay + 1) * room_speed;
 	playing = false;
 }

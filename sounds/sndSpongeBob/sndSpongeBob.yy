@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sndSpongeBob",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Bridges",
+    "path":"folders/Sprites/Bridges.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":18.44,
+  "duration":49.31,
   "exportDir":"",
   "name":"sndSteelSentinels",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sndSteelSentinels.mp3",
-  "volume":1.0,
+  "volume":0.7,
 }

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sndMarioPaint",
+  "%Name":"sndMainTheme",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":119.095146,
+  "duration":62.484898,
   "exportDir":"",
-  "name":"sndMarioPaint",
+  "name":"sndMainTheme",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndMarioPaint.mp3",
-  "volume":0.26,
+  "soundFile":"sndMainTheme.mp3",
+  "volume":0.05,
 }

@@ -1,4 +1,4 @@
 /// @description Create healthbar
-hp = 100;
+hp = 80;
 dead = false;
 deathHandled = false;
