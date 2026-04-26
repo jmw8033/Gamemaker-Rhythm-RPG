@@ -32,7 +32,7 @@ if (started) {
 			laneObject = other.lanes[i]
 		}	
 	}
-	songDelay = ((firstLane.y + sprite_get_height(sprLane)) / (firstLane.noteSpeed * room_speed)) - 0.55;	
+	songDelay = ((firstLane.y + sprite_get_height(sprLane)) / (firstLane.noteSpeed * room_speed)) + songSpecificDelay;	
 	playing = true;
 }
 

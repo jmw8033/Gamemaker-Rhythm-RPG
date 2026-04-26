@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sound2",
+  "%Name":"sndSteelSentinels",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8808163,
+  "duration":18.44,
   "exportDir":"",
-  "name":"sound2",
+  "name":"sndSteelSentinels",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound2.mp3",
+  "soundFile":"sndSteelSentinels.mp3",
   "volume":1.0,
 }
